@@ -23,7 +23,7 @@ session_start();
         .navbar {
             background: rgba(0, 0, 0, 0.9);
             padding: 15px;
-            border-bottom: 2px solidrgb(37, 159, 66);
+            border-bottom: 2px solid #28a745;
         }
         .navbar-brand {
             font-weight: bold;
