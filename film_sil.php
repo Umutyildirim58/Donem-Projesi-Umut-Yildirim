@@ -1,4 +1,3 @@
-film_sil.php
 <?php
 require_once 'db.php';
 

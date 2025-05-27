@@ -1,4 +1,3 @@
-db.php
 <?php
 try {
     $pdo = new PDO('mysql:host=localhost;dbname=film_arsivi;charset=utf8', 'root', '');
@@ -6,4 +5,5 @@ try {
     
 } catch (PDOException $e) {
     die("Veritabanı bağlantı hatası: " . $e->getMessage());
+    
 }
